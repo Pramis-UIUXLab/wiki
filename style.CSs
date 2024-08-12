@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page_container{
+    display: flex;
+    margin-top: 2rem;
+}
+.logo{
+    
+    /* padding: 3rem; */
+    display: flex;
+    flex-direction: column;
+
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.search{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+}
+.search input{
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+    padding-left: 0.5rem;
+}
+/* header ends */
+.sidebar{
+    width: 20%;
+    position: sticky;
+    top: 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+ul li{
+        list-style-type: none;
+}
+a{
+    text-decoration: NONE;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+i{
+    margin-right: 0.5rem;
+}
+/* sidebar ends */
+.content{
+    width: 50%;
+}
+/* content ends */
+.rightmenu{
+    position: sticky;
+    height: 100vh;
+    width: 30%;
+    top: 0;
+    padding: 2rem;
+    }
+
